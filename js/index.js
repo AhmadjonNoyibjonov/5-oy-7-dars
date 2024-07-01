@@ -91,7 +91,6 @@ document.addEventListener("DOMContentLoaded", function () {
           });
 
           localStorage.setItem("todos", JSON.stringify(copied));
-          window.location.reload();
         }
       });
     });
